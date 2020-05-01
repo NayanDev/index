@@ -1,0 +1,51 @@
+.kontak {
+	overflow: auto;
+}
+
+.kontak-header {
+	padding: 100px 0 0 0;
+	text-align: center;
+}
+
+.section-title {
+	border-bottom: 2px solid #dee7ec;
+	font-size: 28px;
+	padding-bottom: 15px;
+}
+
+.contact-form {
+	padding-top: 75px; 
+	float: left;
+	width: 50%;
+}
+
+input, textarea {
+    width: 400px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+	background-color: #dee7ec;
+	color: #889eab;
+}
+
+.contact-person {
+	margin-top: 100px;
+	width: 50%;
+	float: left;
+}
+
+.contact-person p {
+	font-size: 2rem;
+}
+
+i {
+	margin-right: 20px;
+	margin-bottom: 5px;
+	float: left;
+	font-size: 2rem;
+}

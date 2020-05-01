@@ -1,0 +1,59 @@
+main {
+	border-bottom: 1px solid green;
+}
+
+.about {
+	overflow: auto;
+}
+
+.about-header p {
+	padding: 0 250px;
+}
+
+.about-header {
+	text-align: center;
+}
+
+.about-left {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.about-right {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.about-right p {
+	font-size: 1.2rem;
+}
+
+.skill-container {
+	width: 100%;
+	background-color: #d1d1d1;
+}
+.skills {
+	text-align: right;
+	padding-right: 20px;
+	line-height: 15px;
+	color: #fff;
+}
+.html {
+	width: 90%;
+	background-color: rgb(0, 0, 0, 0.8);
+}
+.css {
+	width: 85%;
+	background-color: rgb(0, 0, 0, 0.8);
+}
+.js {
+	width: 80%;
+	background-color: rgb(0, 0, 0, 0.8);
+}
+
+.php {
+	width: 70%;
+	background-color: rgb(0, 0, 0, 0.8);
+}

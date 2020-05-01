@@ -1,0 +1,52 @@
+@media (max-width: 1000px) {
+	.header-left, .header-right, .sosmed, .about-left, .about-right {
+		width: 50%;
+		text-align: center;
+	}
+
+	.about-header p {
+		width: 100%;
+		padding: 0 50px;
+	}
+
+	.port-content, .contact-form, .contact-person {
+		width: 50%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 670px) {
+	.header-left, .header-right, .sosmed {
+		width: 100%;
+		text-align: center;
+	}
+
+	.navigasi a{
+		width: 100%;
+		background-color: white;
+		display: block;
+	}
+
+	.resp-about {
+		text-align: center;
+		width: 100%;
+	}
+
+	.about-left, .about-right, .portofolio-header, .port-content, .contact-form, .contact-person {
+		width: 100%;
+	}
+
+	.kontak {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.about-header p {
+		width: 100%;
+		padding: 0 50px;
+	}
+
+	.contact-form {
+		width: 100%;
+	}
+}

@@ -1,0 +1,133 @@
+.container {
+	max-width: 1170px;
+	padding: 10px 15px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	background-color: rgb(237, 237, 237);
+	top: 0;
+}
+
+.header-left {
+	width: 50%;
+	float: left;
+	padding: 0 50px 0 30px;
+}
+
+.header-left p {
+	font-size: 2.5rem;
+	padding-bottom: 10px;
+	font-family: 'Kaushan Script', cursive;
+	margin-bottom: 50px;
+	color: rgb(26, 0, 0, 0.7);
+	font-weight: bold;
+}
+
+.header-left h1 {
+	padding: 10px 0;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 4.5rem;
+	color: rgb(0, 0, 0, 0.8);
+	letter-spacing: 5px;
+}
+
+.header-left h2 {
+	font-weight: normal;
+	padding: 10px 0;
+	font-size: 2rem;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	-webkit-animation-name: warna;
+	-webkit-animation-duration: 5s;
+	animation-name: warna;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes warna {
+	from {color: #34A853;}
+	to {color:#4285F4;}
+}
+
+@keyframes warna {
+	from {color:  #34A853;}
+	to {color:#4285F4;}
+}
+
+
+.header-left h3 {
+	border-top: 1px solid rgb(0,0,0,0.3);
+	font-weight: normal;
+	padding: 10px 0;
+	font-size: 1.5rem;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.header-left h4 {
+	display: inline-block;
+	padding: 14px 16px;
+	border: 1px solid black;
+	margin: 25px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header-right {
+	width: 50%;
+	float: left;
+	padding-bottom: 20px;
+}
+
+.navigasi {
+	overflow: auto;
+}
+
+.navigasi a {
+	float: right;
+	font-size: 14px;
+	padding: 14px 16px;
+	color: black;
+}
+
+.feature {
+	width: 100%;
+	margin: 5px;
+	min-width: 250px;
+	margin: 50px 0px;
+	color: #111;
+	filter: grayscale(100%);
+	-webkit-box-shadow: 9px 10px 39px -2 rgba(0,0,0,0.3);
+	-moz-box-shadow: 9px 10px 39px -2 rgba(0,0,0,0.3);
+	box-shadow: 9px 10px 39px -2 rgba(0,0,0,0.3);
+}
+
+.flex_feature_item:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.feature .feature_image {
+	width: 350px;
+	height: 350px;
+	margin: 0 auto;
+	border-radius: 200px;
+	background-size: cover;
+}
+
+.feature1 .feature_image {
+	background-image: url("nayan.jpg");
+}
+
+.sosmed {
+	text-align: center;
+}
+
+.sosmed a {
+	font-size: 17px;
+	padding: 14px 16px;
+	color: #221F1F;
+}

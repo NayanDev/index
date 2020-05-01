@@ -1,0 +1,24 @@
+@import "home.css";
+@import "about.css";
+@import "portofolio.css";
+@import "kontak.css";
+@import "footer.css";
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: "Lucida Grande";
+	background-color: #F5F5F1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
