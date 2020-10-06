@@ -1,0 +1,239 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Arial";
+	color: #eaeaea;
+	background: #000000;
+	background: -webkit-linear-gradient(to right, #434343, #000000);
+	background: linear-gradient(to right, #434343, #000000);
+}
+
+.split {
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	overflow-x: hidden; 
+	top: 0;
+	padding-top: 20px;
+}
+
+.left {
+	width: 40%;
+	left: 0;
+}
+
+.right {
+	width: 60%;
+	right: 0;
+}
+
+.centered {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.container {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	right: 10%;
+}
+
+.container h1 {
+	font-size: 30px;
+	letter-spacing: 1.7px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+}
+
+.container p {
+	letter-spacing: 1.7px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+	font-size: 20px;
+	text-align: justify;
+}
+
+
+/*Profile-Styling*/
+.profile h2{
+	color: #b5e853;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+	letter-spacing: 2px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.profile p {
+	color: #63c0f5;
+	text-shadow: 0 0 5px rgba(104,182,255,0.5);
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+}
+
+.profile img {
+	width: 120px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	opacity: 0.8;
+}
+
+
+/*Navigation-Styling*/
+.topnav {
+	overflow: hidden;
+}
+
+.topnav a {
+	width: 20%;
+	font-weight: bold;
+	color: #b5e853;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+
+/*Skill-Bar*/
+.skill-desc img {
+	float: left;
+	width: 2.6em;
+	margin-right: 10px;
+}
+
+.skill-desc p {
+	font-weight: bold;
+	float: left;
+	display: inline-block;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+}
+
+.container-skill {
+	padding: 20px;
+	overflow: auto;
+}
+
+.skill-bar {
+	border-radius: 25px;
+	float: left;
+	width: 100%;
+	background-color: #ddd;
+}
+
+.skills {
+	border-radius: 25px;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+.html {
+	width: 88%;
+	background-color: #e44d26;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+}
+
+.css {
+	width: 85%;
+	background-color: #039be5;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+}
+
+.js {
+	width: 80%;
+	background-color: #e4bd00;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+}
+
+.node {
+	width: 77%;
+	background-color: #80bd01;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+}
+
+.react {
+	width: 80%;
+	background-color: #00ccff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+}
+
+.py {
+	width: 68%;
+	background-color: #f8c63d;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+}
+
+.php {
+	width: 60%;
+	background-color: #3279b6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+}
+
+.bs4 {
+	width: 75%;
+	background-color: #563d7c;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+}
+
+
+/*Sertifikat*/
+.container li {
+	list-style: none;
+}
+
+.container ul {
+	padding: 10px;
+}
+
+
+/*Project*/
+.container-project {
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+.container-project h3 {
+	text-align: center;
+}
+
+.container-project p {
+	text-align: left;
+	font-size: 10px;
+}
+
+
+/*Contact*/
+.container-contact {
+	padding: 10px;
+	overflow: auto;
+}
+
+.container-contact-left {
+	float: left;
+	width: 40%;
+}
+
+.container-contact-left i {
+	float: left;
+	display: inline-block;
+}
+
+.container-contact-left p {
+	display: inline-block;
+}
+
+.container-contact-right {
+	float: right;
+	width: 60%;
+}
+
+.far,.fab {
+	font-size: 2em;
+	padding: 16px;
+}
