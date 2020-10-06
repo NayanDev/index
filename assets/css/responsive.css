@@ -1,0 +1,52 @@
+@media screen and (max-width: 670px) {
+	.split {	
+		width: 100%;
+	}
+	.left {
+		position: inherit;
+	}
+	.right {
+		top: 350px;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.profile h2 {
+		font-size: 25px;
+	}
+	.profile p {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.container {
+		top: 10%;
+	}
+	.container h1 {
+		font-size: 25px;
+	}
+	.container p {
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (max-width: 670px) {
+	.container-project {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.container-contact-left {
+		width: 100%;
+	}
+	.container-contact-left p {
+		padding-top: 13px;
+	}
+	.container-contact-right {
+		width: 100%;
+		text-align: center;
+	}
+}
